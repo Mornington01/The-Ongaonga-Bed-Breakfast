@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>The Haukai Restauarant Bookings Page</title>
+<link rel="stylesheet" href="Untitled-1.css" >
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <nav>
+        <ul>
+
+
+          <li>
+            <a href="/Users/mwilk/OneDrive/Desktop/Web%20Development%20%20assignment%202/assignment2%20contact.html"target="_blank"><button>HOME PAGE</button></a>
+        
+        <a href ="/Users/mwilk/OneDrive/Desktop/Web%20Development%20%20assignment%202/menu.html"target="_blank"><button>MENU</button></a>
+   
+        <a href="/Users/mwilk/OneDrive/Desktop/Web%20Development%20%20assignment%202/photo%20gallery.html"target="_blank"><button>GALLERY</button></a>
+    </li>
+    
+   <br>
+
+<img src="restautant logo.png" >
+<br>
+
+<form action="reservation.php" method="post">
+    <link rel="stylesheet" href="table info.css" >
+   
+    <div class="elem-group">
+      <label for="name">Your Name</label>
+      <input type="text" id="name" name="visitor_name" placeholder="John Doe" pattern=[A-Z\sa-z]{3,20} required>
+    </div>
+    <div class="elem-group">
+      <label for="email">Your E-mail</label>
+      <input type="email" id="email" name="visitor_email" placeholder="john.doe@email.com" required>
+    </div>
+    <div class="elem-group">
+      <label for="phone">Your Phone</label>
+      <input type="tel" id="phone" name="visitor_phone" placeholder="498-348-3872" pattern=(\d{3})-?\s?(\d{3})-?\s?(\d{4}) required>
+    </div>
+    <hr>
+    <div class="elem-group inlined">
+      <label for="adult">Number</label>
+      <input type="number" id="adult" name="total_adults" placeholder="2" min="1" max= "12" required>
+    </div>
+   
+    <div class="elem-group inlined">
+      <label for="checkin-date"> Date</label>
+      <input type="date" id="checkin-date" name="checkin" required>
+    </div>
+    <div class="elem-group inlined">
+      <label for="checkout-date">Time</label>
+      <input type="time" id="checkout-date" name="checkout" required>
+    </div>
+    <div class="elem-group">
+      <label for="room-selection">Select Table Number</label>
+      <select id="room-selection" name="room_preference" required>
+          <option value="">Choose Table Number</option>
+          <option value="connecting">1</option>
+          <option value="adjoining">2</option>
+          <option value="adjacent">3</option>
+      </select>
+    </div>
+    <hr>
+    <div class="elem-group">
+      <label for="message">Anything Else?</label>
+      <textarea id="message" name="visitor_message" placeholder="Tell us anything else that might be important." required></textarea>
+    </div>
+    <button type="submit">Book </button>
+  </form>
+    
+    
+
+<h4>
+    Privacy Statement
+    <br>
+    
+    
+    
+    
+    
+        We collect personal information from you, including information about your:
+        <br>
+        name
+        <br>
+        contact information
+        <br>
+        location
+        <br>
+        computer or network
+        <br>
+        interactions with us
+        <br>
+        billing or purchase information
+        <br>
+        We collect your personal information in order to:
+        <br>
+        to organize restaurant bookings
+        <br>
+        Providing some information is optional.
+        <br>
+        If you choose not to enter contact details, we'll unable to confirm bookings.
+        <br>
+        We keep your information safe by storing it on password protected devices and only allowing staff members to access .
+        <br>
+        You have the right to ask for a copy of any personal information we hold about you, 
+        and to ask for it to be corrected if you think it is wrong. 
+        <br>
+        If you’d like to ask for a copy of your information, 
+        or to have it corrected, 
+        please contact us at our email address, or 09 401 4019, or 1 Island Street.
+    
+    
+    
+    </h4>
+</body>
+</html>

@@ -1,0 +1,124 @@
+header{
+    color: blue;
+}
+
+button {
+  background-color: brown; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+
+}
+
+
+
+h1{
+    font-family: "Times New Roman", Times, serif;
+    border-color:black;
+    border-width:thick;
+    border-style:solid;
+    width:10cm
+    }
+
+
+h2{
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+
+h3
+{
+font-family: "Lucida Console", "Courier New", monospace;
+
+}
+
+
+h4{
+    font-family: "Times New Roman", Times, serif;
+    border-color:black;
+    border-width:thick;
+    border-style:solid;
+    font-size: 14px;
+    width: 10cm;
+}
+    p1{
+        color:teal;
+        border-width:thick;
+    border-style:solid;
+        }
+        
+        
+        p2{
+        border-color:green;
+        border-width:thick;
+        border-style:solid;
+        font-size:120%;
+        font-variant:small-caps;
+        }
+        
+        p3{
+        font-variant:small-caps;
+        }
+
+
+        .boxed {
+            border: 1px solid green ;
+            width: 30cm;
+          }
+
+          .container {
+            margin: 50px auto;
+            width: 500px;
+            height: 400px;
+            overflow: hidden;
+            border: 10px solid;
+            border-top-color: #856036;
+            border-left-color: #5d4426;
+            border-bottom-color: #856036;
+            border-right-color: #5d4426;
+            position: relative;
+          }
+
+          .photo {
+            position: absolute;
+            animation: round 16s infinite;
+            opacity: 0;
+          }
+          @keyframes round {
+            25% {
+              opacity: 1;
+            }
+            40% {
+              opacity: 0;
+            }
+          }
+          
+          
+          img:nth-child(1) {
+            animation-delay: 12s;
+          }
+           
+          img:nth-child(2) {
+            animation-delay: 8s;
+          }
+           
+          img:nth-child(3) {
+            animation-delay: 4s;
+          }
+           
+          img:nth-child(4) {
+            animation-delay: 0s;
+          }
+
+          .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+          } 
